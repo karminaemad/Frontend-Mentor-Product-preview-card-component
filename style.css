@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: hsl(30, 38%, 92%);
+}
+.home
+{
+    width: 750px;
+    height: 450px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: auto ;
+    margin-top: 85px;
+    background-image: url(images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.home-content
+{
+    width: 40%;
+    padding-left: 400px;
+    line-height: 50px;
+}
+.perfume
+{
+    letter-spacing: 5px;
+    text-align: center;
+}
+.head1
+{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+.p1
+{
+    line-height: 25px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.price1
+{
+    color:  hsl(158, 36%, 37%);
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-left: 40px;
+    line-height: 80px;
+}
+.price2
+{
+    font-size: 20px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    margin: 20px;
+}
+.btn
+{
+    width:255px ;
+    height: 45px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: hsl(158, 81%, 23%);
+    color:hsl(0, 0%, 100%) ;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btn:hover
+{
+    cursor: pointer;
+    background-color: hsl(158, 84%, 17%);
+}
+.attribution
+{
+    position: absolute;
+    bottom: 3px;
+    left: 500px;
+}
